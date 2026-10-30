@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "a2a-plugins",
+  "description": "Official Agent Plugins from the A2A (Agent2Agent) project",
+  "owner": {
+    "name": "A2A Project",
+    "url": "https://a2a-protocol.org"
+  },
+  "plugins": [
+    {
+      "name": "a2a-cli",
+      "source": "./plugins/a2a-cli",
+      "category": "development",
+      "description": "Drive A2A (Agent2Agent) agents from the command line with the a2a CLI: fetch an agent card, send a message, stream or poll a task, and list, resume, or cancel tasks.",
+      "version": "0.3.1",
+      "author": {
+        "name": "A2A Project",
+        "url": "https://a2a-protocol.org"
+      },
+      "homepage": "https://github.com/a2aproject/a2a-cli",
+      "repository": "https://github.com/a2aproject/a2a-cli",
+      "license": "Apache-2.0",
+      "keywords": [
+        "a2a",
+        "agent2agent",
+        "cli",
+        "agents",
+        "interoperability",
+        "agent-card"
+      ]
+    }
+  ]
+}

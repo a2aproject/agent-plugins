@@ -1,0 +1,20 @@
+{
+  "name": "a2a-plugins",
+  "interface": {
+    "displayName": "A2A Agent Plugins"
+  },
+  "plugins": [
+    {
+      "name": "a2a-cli",
+      "source": {
+        "source": "local",
+        "path": "./plugins/a2a-cli"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}
