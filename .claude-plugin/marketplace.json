@@ -12,7 +12,7 @@
       "source": "./plugins/a2a-cli",
       "category": "development",
       "description": "Drive A2A (Agent2Agent) agents from the command line with the a2a CLI: fetch an agent card, send a message, stream or poll a task, and list, resume, or cancel tasks.",
-      "version": "0.3.1",
+      "version": "0.4.0",
       "author": {
         "name": "A2A Project",
         "url": "https://a2a-protocol.org"

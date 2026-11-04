@@ -17,14 +17,20 @@ Check it with `a2a version`. The skill runs the same preflight check.
 
 ## Install
 
-In Claude Code:
+**Claude Code**
 
 ```bash
 /plugin marketplace add a2aproject/agent-plugins
 /plugin install a2a-cli@a2a-plugins
 ```
 
-For GitHub Copilot CLI, Codex, OpenClaw, Hermes Agent, Gemini CLI, OpenCode, and others, see [Installation](https://github.com/a2aproject/agent-plugins#installation).
+**Any Agent Plugins client:** load the `plugins/a2a-cli` directory of [a2aproject/agent-plugins](https://github.com/a2aproject/agent-plugins).
+
+**Skill only**, with the [`skills`](https://www.skills.sh) CLI:
+
+```bash
+npx skills add https://github.com/a2aproject/agent-plugins/tree/main/plugins/a2a-cli/skills/a2a-cli -g
+```
 
 ## Contents
 
